@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.themioshow.com",
     title: "The Mio Show",
+    description: "Gatsby Built Site for theMioshow Revamp ",
   },
   plugins: [
     {
@@ -30,6 +31,7 @@ module.exports = {
     },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
+    `gatsby-plugin-postcss`,
     "gatsby-plugin-sitemap",
     {
       resolve: 'gatsby-plugin-better-jss',
